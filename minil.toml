@@ -1,0 +1,6 @@
+name = "App-Greple-daemon3"
+# badges = ["travis"]
+authority="cpan:UTASHIRO"
+
+module_maker="ModuleBuildTiny"
+
