@@ -187,11 +187,30 @@ Block start with ※ (kome-mark) character is comment block.
     protected mode は、ここでしか使われていないため、
     protection mode と誤解されないために特権モードと訳すことにする。
 
+=head1 INSTALL
+
+cpanm App::Greple::daemon3
+
+=head1 LICENSE
+
+Copyright (C) Kazumasa Utashiro.
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
+=head1 SEE ALSO
+
+L<https://github.com/kaz-utashiro/greple-daemon3>
+
+=head1 AUTHOR
+
+Kazumasa Utashiro
+
 =cut
 
 package App::Greple::daemon3;
 
-our $Version = "1.01";
+our $VERSION = "1.01";
 
 use utf8;
 use strict;
